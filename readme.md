@@ -1,7 +1,7 @@
 # Soulwall
 
 ## Video Demo
-<video controls src="./Resources/Soulwall Demo 1.mp4" title="Title"></video>
+https://github.com/SealTheTiel/SoulWall/blob/5f9740f45a174117d6bd7c0a28830f2123a30296/Resources/Soulwall%20Demo%201.mp4
 
 1. start animation
     - todo animation fade
