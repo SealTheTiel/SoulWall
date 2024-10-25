@@ -32,7 +32,7 @@ public class EagleManager : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            if (hit.collider == eagleCollider)
+            if (hit.collider == eagleCollider || hit.transform.tag == "artwork")
             {
                 eaglePrefab.GetComponent<Renderer>().material = selectedTexture;
                 ToggleArtworks(true);
