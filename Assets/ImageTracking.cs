@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
-public class imageTracking : MonoBehaviour
+public class ImageTracking : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] placedPrefab;
@@ -35,13 +35,13 @@ public class imageTracking : MonoBehaviour
     }
     private void OnEnable()
     {
-        trackedImageManager.trackablesChanged.AddListener(imageChanged);
+        trackedImageManager.trackedImagesChanged += imageChanged;
     }
     private void OnDisable()
     {
-        trackedImageManager.trackablesChanged.RemoveListener(imageChanged);
+        trackedImageManager.trackedImagesChanged -= imageChanged;
     }
-    private void imageChanged(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
+    private void imageChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         foreach(ARTrackedImage trackedImage in eventArgs.added)
         {

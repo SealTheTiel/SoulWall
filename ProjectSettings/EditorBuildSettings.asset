@@ -6,13 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SoulWall.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/ManoMotion ARFoundation/Scenes/ManoMotionSDKProFeatures.unity
+    guid: 2e8ecbb9ea2e340009ac8d7dd6fbd854
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f52afd49571fecd43ae54887542a8e28,
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d498c05697aadb04ca7a1845c6a55a4c,
       type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 320788eefd78a0c48a950536aebcad06,
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8990977ccd5286744be304ac1829027e,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b1f2a72623b307e4f9b1579cf5f70a53,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dfae49f5a75c254498f3f0ff2320c7fd,
       type: 2}
-  m_UseUCBPForAssetBundles: 0
