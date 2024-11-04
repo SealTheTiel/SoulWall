@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EagleManager : MonoBehaviour
 {
+    [SerializeField] private Material artworkTexture;
+    [SerializeField] private GameObject eagleOutline;
     [SerializeField] private GameObject eaglePrefab;
     [SerializeField] private Material selectedTexture;
     [SerializeField] private Material unselectedTexture;
@@ -17,6 +20,11 @@ public class EagleManager : MonoBehaviour
         {
             artwork.SetActive(state);
         }
+    }
+
+    void ToggleOutline(bool state)
+    {
+        eagleOutline.SetActive(state);
     }
 
     void Start()
@@ -35,10 +43,12 @@ public class EagleManager : MonoBehaviour
             if (hit.collider == eagleCollider || hit.transform.tag == "artwork") {
                 eaglePrefab.GetComponent<Renderer>().material = selectedTexture;
                 ToggleArtworks(true);
+                ToggleOutline(true);
                 return;
             }
             eaglePrefab.GetComponent<Renderer>().material = unselectedTexture;
             ToggleArtworks(false);
+            ToggleOutline(false);
         }
     }
 }
