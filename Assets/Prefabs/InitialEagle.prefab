@@ -221,6 +221,9 @@ MonoBehaviour:
       m_Calls: []
   _whenSelect:
     m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6204521856495369267}
         m_TargetAssemblyTypeName: EagleTransition, Assembly-CSharp
@@ -246,9 +249,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
