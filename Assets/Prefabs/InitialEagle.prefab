@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 8743098902049253899}
   - component: {fileID: 214006413180185181}
   m_Layer: 0
-  m_Name: WholeEagle
+  m_Name: InitialEagle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
