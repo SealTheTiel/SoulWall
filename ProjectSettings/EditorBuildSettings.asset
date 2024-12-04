@@ -7,14 +7,13 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/ManoMotion ARFoundation/Scenes/ManoMotionSDKProFeatures.unity
-    guid: 2e8ecbb9ea2e340009ac8d7dd6fbd854
+    path: "Assets/Samples/Meta XR Interaction \u200BSDK/71.0.0/Example Scenes/PokeExamples.unity"
+    guid: ada3086bde0ab18459589e22d8d9e182
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d498c05697aadb04ca7a1845c6a55a4c,
-      type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8990977ccd5286744be304ac1829027e,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dfae49f5a75c254498f3f0ff2320c7fd,
-      type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 50d751cbca0cb8c42a38754a7f4fd835, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 94f298b8356958b4d9ceefc0a9412600, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d5ec4922ce3bccb459762354e25f5702, type: 2}
+  m_UseUCBPForAssetBundles: 0
