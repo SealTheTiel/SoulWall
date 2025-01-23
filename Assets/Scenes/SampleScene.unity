@@ -5452,7 +5452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &259826458
 Transform:
   m_ObjectHideFlags: 0
@@ -11042,7 +11042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HandType: 0
   _pointerPoseRoot: {fileID: 0}
-  m_showState: 3
+  m_showState: 0
   RayHelper: {fileID: 0}
 --- !u!114 &484227404
 MonoBehaviour:
@@ -13205,7 +13205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HandType: 1
   _pointerPoseRoot: {fileID: 0}
-  m_showState: 3
+  m_showState: 0
   RayHelper: {fileID: 0}
 --- !u!114 &602807526
 MonoBehaviour:
@@ -25979,7 +25979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1242755854
 Transform:
   m_ObjectHideFlags: 0
