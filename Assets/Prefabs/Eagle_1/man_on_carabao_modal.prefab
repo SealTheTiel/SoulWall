@@ -222,12 +222,12 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: -30
+        Min: 0
         Max: 30
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: -45
+        Min: 0
         Max: 45
     ZAxis:
       ConstrainAxis: 1
