@@ -3525,8 +3525,8 @@ GameObject:
   - component: {fileID: 5261920981082890972}
   - component: {fileID: -6505239774665487733}
   - component: {fileID: -6342239284797563697}
-  - component: {fileID: -4844968401040125676}
   - component: {fileID: 9150474574489427972}
+  - component: {fileID: 2781182878040914690}
   m_Layer: 2
   m_Name: Eagle
   m_TagString: Untagged
@@ -3574,7 +3574,7 @@ MonoBehaviour:
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
   _rigidbody: {fileID: -6342239284797563697}
-  _kinematicWhileSelected: 0
+  _kinematicWhileSelected: 1
   _throwWhenUnselected: 0
 --- !u!114 &5261920981082890972
 MonoBehaviour:
@@ -3660,7 +3660,7 @@ MonoBehaviour:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1
+        Max: 2
 --- !u!54 &-6342239284797563697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3688,7 +3688,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &-4844968401040125676
+--- !u!65 &9150474574489427972
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9185667735882441570}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 1.5, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2781182878040914690
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3729,27 +3750,6 @@ MonoBehaviour:
   _movementProvider: {fileID: 0}
   _handAligment: 0
   _handGrabPoses: []
---- !u!65 &9150474574489427972
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9185667735882441570}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3, y: 1.5, z: 0.3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736964104167374921
 PrefabInstance:
   m_ObjectHideFlags: 0
