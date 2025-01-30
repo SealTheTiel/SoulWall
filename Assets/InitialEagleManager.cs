@@ -58,4 +58,14 @@ public class InitialEagleManager : MonoBehaviour
         spawnedPrefab.transform.rotation = originalTransform.rotation;
         spawnedPrefab.transform.localScale = new Vector3(prefabScale, prefabScale, prefabScale);
     }
+
+    public void reset() {
+        Transform originalTransform = spawnedPrefab.transform;
+        Destroy(spawnedPrefab);
+
+        spawnedPrefab = Instantiate(initialEaglePrefab, Vector3.zero, Quaternion.identity);
+        spawnedPrefab.transform.position = originalTransform.position;
+        spawnedPrefab.transform.rotation = originalTransform.rotation;
+        spawnedPrefab.transform.localScale = new Vector3(prefabScale, prefabScale, prefabScale);    
+    }
 }

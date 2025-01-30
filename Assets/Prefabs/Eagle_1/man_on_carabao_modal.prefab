@@ -136,7 +136,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816457730594905370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b04d39d26e3b7804e9963f738ef7bfe1, type: 3}
   m_Name: 
@@ -211,26 +211,26 @@ MonoBehaviour:
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: -0.5
-        Max: 0.5
+        Min: -0.3
+        Max: 0.3
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: -0.5
+        Min: -0.2
         Max: 0.5
   _rotationConstraints:
     XAxis:
-      ConstrainAxis: 1
+      ConstrainAxis: 0
       AxisRange:
-        Min: -30
+        Min: 0
         Max: 30
     YAxis:
-      ConstrainAxis: 1
+      ConstrainAxis: 0
       AxisRange:
-        Min: -45
+        Min: 0
         Max: 45
     ZAxis:
-      ConstrainAxis: 1
+      ConstrainAxis: 0
       AxisRange:
         Min: 0
         Max: 0
