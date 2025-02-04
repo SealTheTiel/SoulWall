@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5830411558549614943}
   - component: {fileID: 1767836184371594795}
   - component: {fileID: 7101563775463196838}
+  - component: {fileID: 1539566474696643036}
   m_Layer: 4
   m_Name: man_on_carabao_modal
   m_TagString: ManOnCarabaoModal
@@ -251,6 +252,18 @@ MonoBehaviour:
       AxisRange:
         Min: 1
         Max: 1
+--- !u!114 &1539566474696643036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816457730594905370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1705b1c04aa503d4ab1d715f61661ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1496713547044344312
 GameObject:
   m_ObjectHideFlags: 0

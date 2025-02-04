@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1767836184371594795}
   - component: {fileID: -5263152611864081796}
   - component: {fileID: 8807023725784022257}
+  - component: {fileID: 8792784824810334830}
   m_Layer: 4
   m_Name: woman_tossing_rice_modal
   m_TagString: WomanHatModal
@@ -292,6 +293,18 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   _pointableElement: {fileID: 0}
+--- !u!114 &8792784824810334830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816457730594905370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1705b1c04aa503d4ab1d715f61661ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1200605579095370651
 GameObject:
   m_ObjectHideFlags: 0
