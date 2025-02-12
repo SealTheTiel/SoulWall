@@ -1,8 +1,28 @@
 using UnityEngine;
-
+using TextMeshPro = TMPro.TextMeshPro;
 public class Modal : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private Sprite artworkImage;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    private string title;
+    [SerializeField] TextMeshPro titleObject;
+    private string description;
+    [SerializeField] TextMeshPro descriptionObject;
+
+
+    void Awake() {
+        if (artworkImage) {
+            spriteRenderer.sprite = artworkImage;
+        }
+        if (titleObject) {
+            titleObject.text = title;
+        }
+        if (descriptionObject) {
+            descriptionObject.text = description;
+        }
+    }
     void Start()
     {
         
@@ -12,5 +32,20 @@ public class Modal : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SetData(Sprite artworkImage, string title, string description) {
+        this.artworkImage = artworkImage;
+        this.title = title;
+        this.description = description;
+        if (spriteRenderer) {
+            spriteRenderer.sprite = artworkImage;
+        }
+        if (titleObject) {
+            titleObject.text = title;
+        }
+        if (descriptionObject) {
+            descriptionObject.text = description;
+        }
     }
 }

@@ -5,6 +5,10 @@ public class ArtworkManager : MonoBehaviour
     [SerializeField]
     private GameObject modalPrefab; 
     private GameObject modal;
+
+    [SerializeField] Sprite artworkImage;
+    [SerializeField] string title;
+    [SerializeField] string description;
     // Start is called once before the first execution of transform.position + tranform.right;
     void Start() { }
 
@@ -18,8 +22,9 @@ public class ArtworkManager : MonoBehaviour
         foreach (GameObject modal1 in modals) {
             Destroy(modal1);
         }
-
         modal = Instantiate(modalPrefab, transform.position, Quaternion.identity);
+        modal.GetComponent<Modal>().SetData(artworkImage, title, description);
+        
         modal.SetActive(true);
         modal.transform.localScale = Vector3.one * 0.25f;
         modal.transform.position = transform.position + (transform.right * 0.25f);

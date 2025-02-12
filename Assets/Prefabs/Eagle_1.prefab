@@ -790,7 +790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: 1af28c04c598c3744914ae811ae935f3, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: 1165279561, guid: e5114d61b5a7c204eab93c2792702723, type: 3}
+  title: Man on Carabao
+  description: Man on Carabao\nDesc
 --- !u!1 &2070050510480485514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: 9a5824edf50be0849a099576ea2aa1dc, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: -1387776008, guid: ef2171eca7881594c95dba35ca944c3a, type: 3}
+  title: Woman Tossing Rice
+  description: Woman Tossing Rice\nDesc
 --- !u!1 &4302538877066656480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,7 +1732,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: 55cd3475584d467478647b7335e15f24, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
+  title: Mango
+  description: Mango\nDesc
 --- !u!1 &4916799401892033904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,7 +2045,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: 7c34787990d5c394fa2789b3561226c2, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: 1831787653, guid: 23c57fc34f7e4eb4a9510193871d488b, type: 3}
+  title: Farmer
+  description: Farmer\nDesc
 --- !u!1 &5249925817999918739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,7 +2311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: afcd44885ff27fe419bd47c6e7a8c22b, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: 1357188262, guid: ec7bfdba9fecb5c4f83f38fe6f616385, type: 3}
+  title: Chicken
+  description: Chicken\nDesc
 --- !u!1 &5570466288150096604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,7 +3097,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cede1e5a268291342a3671ec1043545e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalPrefab: {fileID: 816457730594905370, guid: 55cd3475584d467478647b7335e15f24, type: 3}
+  modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
+  artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
+  title: Mango
+  description: Mango\nDesc
 --- !u!1 &8938687626199183759
 GameObject:
   m_ObjectHideFlags: 0
