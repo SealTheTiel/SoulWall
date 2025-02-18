@@ -927,7 +927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eagleOutline: {fileID: 3976857335145716160}
   eaglePrefab: {fileID: 6414397918590652491}
-  selectedTexture: {fileID: 2100000, guid: ae8b6c3590a92bb42aab73c32ee6893d, type: 2}
+  selectedTexture: {fileID: 2100000, guid: bce3e9f417d256d41a18bd1ace638254, type: 2}
   unselectedTexture: {fileID: 2100000, guid: ae8b6c3590a92bb42aab73c32ee6893d, type: 2}
   artworks:
   - {fileID: 5758333057334427727}
