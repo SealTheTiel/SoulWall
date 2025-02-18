@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
-  artworkImage: {fileID: 0}
+  artworkImage: {fileID: -138060721, guid: 7817d129b2ba4514487c75df44695bdc, type: 3}
   id: B_3
   title: B3
   description: desc
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
-  artworkImage: {fileID: 0}
+  artworkImage: {fileID: -1278303585, guid: 83337987105d68f48b1123eaccd3aff0, type: 3}
   id: B_4
   title: B4
   description: desc
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
-  artworkImage: {fileID: 0}
+  artworkImage: {fileID: -1948230769, guid: 838287fe55a46604898e2112bd3f3a20, type: 3}
   id: B_5
   title: B5
   description: desc
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
-  artworkImage: {fileID: 0}
+  artworkImage: {fileID: -1524407181, guid: adb9e42fe0873324eb2ee7889a2140a9, type: 3}
   id: B_2
   title: B2
   description: desc
@@ -1789,8 +1789,8 @@ Transform:
   m_GameObject: {fileID: 5487555127797030230}
   serializedVersion: 2
   m_LocalRotation: {x: -0.002471592, y: 0.999997, z: -0, w: 0}
-  m_LocalPosition: {x: -0.105, y: -0.143, z: -0.0166}
-  m_LocalScale: {x: 0.19859779, y: 0.21723546, z: 0.0009999999}
+  m_LocalPosition: {x: -0.181, y: -0.536, z: -0.0166}
+  m_LocalScale: {x: 0.42, y: 0.31, z: 0.0009999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8734875214028536622}
@@ -2300,7 +2300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
-  artworkImage: {fileID: 0}
+  artworkImage: {fileID: 676490354, guid: 5eeae17c84e5c3a419e15afa4521d70e, type: 3}
   id: B_1
   title: B1
   description: desc
@@ -4019,7 +4019,7 @@ PrefabInstance:
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 9151266997830041403, guid: 12aebe04b2137e344ad66e15381479f9, type: 3}
       propertyPath: m_SortingOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9151266997830041403, guid: 12aebe04b2137e344ad66e15381479f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
