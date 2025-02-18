@@ -264,6 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 0}
+  id: B_3
   title: f3
   description: desc
 --- !u!1 &684051435429916308
@@ -686,6 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 0}
+  id: B_4
   title: f4
   description: desc
 --- !u!1 &2825358791543314026
@@ -1217,6 +1219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 0}
+  id: B_2
   title: f2
   description: desc
 --- !u!1 &4464867348532051543
@@ -1837,6 +1840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 0}
+  id: B_1
   title: F1
   description: desc
 --- !u!1 &6969898419683793093

@@ -10,8 +10,7 @@ public class Modal : MonoBehaviour
     [SerializeField] TextMeshPro titleObject;
     private string description;
     [SerializeField] TextMeshPro descriptionObject;
-
-
+    private string id;
     void Awake() {
         if (artworkImage) {
             spriteRenderer.sprite = artworkImage;
@@ -34,10 +33,11 @@ public class Modal : MonoBehaviour
         
     }
 
-    public void SetData(Sprite artworkImage, string title, string description) {
+    public void SetData(Sprite artworkImage, string id, string title, string description) {
         this.artworkImage = artworkImage;
         this.title = title;
         this.description = description;
+        this.id = id;
         if (spriteRenderer) {
             spriteRenderer.sprite = artworkImage;
         }
@@ -47,5 +47,9 @@ public class Modal : MonoBehaviour
         if (descriptionObject) {
             descriptionObject.text = description;
         }
+    }
+
+    public string GetId() {
+        return id;
     }
 }

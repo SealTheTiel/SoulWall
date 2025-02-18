@@ -343,6 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 68957271, guid: 2372fdff46191844eb91148533ff9e1c, type: 3}
+  id: C_3
   title: Woman Ba Ito
   description: Woman Ba Ito\nDesc
 --- !u!1 &1945955460244669727
@@ -609,6 +610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1326582529, guid: cf90600c910081d41b659efbf5a7a8e6, type: 3}
+  id: C_5
   title: House
   description: House\nDesc
 --- !u!1 &2171965901939361966
@@ -1080,6 +1082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1729464450, guid: 7cdd96a5ab2a0d049b6652825d356e10, type: 3}
+  id: C_1
   title: Kids3
   description: Kids3\nDesc
 --- !u!1 &2976207054638146787
@@ -1698,6 +1701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1818212774, guid: 5c2bcee193c8ee940ac5193b24986701, type: 3}
+  id: C_4
   title: Kids4
   description: Kids4\nDesc
 --- !u!1 &4455532732016057173
@@ -2338,6 +2342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 2114917089, guid: 8080fa32b339b9540a1662efc7706273, type: 3}
+  id: C_2
   title: Dog
   description: Dog\nDesc
 --- !u!1 &6483544177757813945

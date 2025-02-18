@@ -792,6 +792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1165279561, guid: e5114d61b5a7c204eab93c2792702723, type: 3}
+  id: A_2
   title: Man on Carabao
   description: Man on Carabao\nDesc
 --- !u!1 &2070050510480485514
@@ -1037,8 +1038,8 @@ Transform:
   - {fileID: 1403726530999726920}
   - {fileID: 9191431650365751371}
   - {fileID: 7021077805506280212}
-  - {fileID: 8945923057186418026}
   - {fileID: 1679666695052395490}
+  - {fileID: 8945923057186418026}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4185292658471475601
@@ -1391,6 +1392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1387776008, guid: ef2171eca7881594c95dba35ca944c3a, type: 3}
+  id: A_1
   title: Woman Tossing Rice
   description: Woman Tossing Rice\nDesc
 --- !u!1 &4302538877066656480
@@ -1734,6 +1736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
+  id: A_5
   title: Mango
   description: Mango\nDesc
 --- !u!1 &4916799401892033904
@@ -2047,6 +2050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1831787653, guid: 23c57fc34f7e4eb4a9510193871d488b, type: 3}
+  id: A_3
   title: Farmer
   description: Farmer\nDesc
 --- !u!1 &5249925817999918739
@@ -2313,6 +2317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1357188262, guid: ec7bfdba9fecb5c4f83f38fe6f616385, type: 3}
+  id: A_4
   title: Chicken
   description: Chicken\nDesc
 --- !u!1 &5570466288150096604
@@ -3099,6 +3104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
+  id: A_6
   title: Mango
   description: Mango\nDesc
 --- !u!1 &8938687626199183759
