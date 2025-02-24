@@ -30,7 +30,7 @@ public class ArtworkManager : MonoBehaviour
         
         modal.SetActive(true);
         modal.transform.localScale = Vector3.one * 0.25f;
-        modal.transform.position = transform.position + (transform.right * 0.25f);
-        modal.transform.LookAt(modal.transform.position - (Camera.main.transform.position - modal.transform.position)); 
+        modal.transform.position = transform.position + (transform.forward * 0.1f);
+        //modal.transform.LookAt(modal.transform.position - (Camera.main.transform.position - modal.transform.position)); 
     }
 }
