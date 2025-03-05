@@ -4,28 +4,29 @@ using UnityEngine;
 using System.IO;
 using Unity.VisualScripting;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Tutorial : MonoBehaviour
 {
     // [SerializeField] string filePath;
-
-    [SerializeField] List<Sprite> sprites;
-    [SerializeField] List<string> titleTexts;
+ 
+    [SerializeField] List<VideoClip> videos;
+    [SerializeField] List<string> numberTexts;
     [SerializeField] List<string> descriptions;
 
     [SerializeField] GameObject Title;
     [SerializeField] GameObject Description;
-    [SerializeField] Modal modal;
+    [SerializeField] HintModal modal;
 
     [SerializeField] GameObject nextButton;
     [SerializeField] GameObject previousButton;
-
     private int currentIndex = 0;
 
     void Awake()
     {
         string id = "tutorial" + currentIndex;
-        modal.SetData(sprites[currentIndex], id, titleTexts[currentIndex], descriptions[currentIndex]);
+        modal.SetData(videos[currentIndex], id, numberTexts[currentIndex], descriptions[currentIndex]);
 
     }
     void Start() { }
@@ -36,14 +37,14 @@ public class Tutorial : MonoBehaviour
     public void GoToNext()
     {
         currentIndex++;
-        if (currentIndex >= sprites.Count - 1 ) {
-            currentIndex = sprites.Count - 1;
+        if (currentIndex >= videos.Count - 1 ) {
+            currentIndex = videos.Count - 1;
             nextButton.SetActive(false);
         }
         string id = "tutorial" + currentIndex;
-        if (currentIndex < sprites.Count)
+        if (currentIndex < videos.Count)
         {
-            modal.SetData(sprites[currentIndex], id, titleTexts[currentIndex], descriptions[currentIndex]);
+            modal.SetData(videos[currentIndex], id, numberTexts[currentIndex], descriptions[currentIndex]);
             previousButton.SetActive(true);
         }
 
@@ -61,7 +62,7 @@ public class Tutorial : MonoBehaviour
         string id = "tutorial" + currentIndex;
         if (currentIndex >= 0)
         {
-            modal.SetData(sprites[currentIndex], id, titleTexts[currentIndex], descriptions[currentIndex]);
+            modal.SetData(videos[currentIndex], id, numberTexts[currentIndex], descriptions[currentIndex]);
             nextButton.SetActive(true);
         }
     }
