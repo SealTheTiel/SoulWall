@@ -345,8 +345,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 68957271, guid: 2372fdff46191844eb91148533ff9e1c, type: 3}
   id: C_3
-  title: Woman Ba Ito
-  description: Woman Ba Ito\nDesc
+  title: Kayabang
+  description: Mike Jacinto\n 2023\nH 18" x W 24"\nOil on Canvas
 --- !u!1 &1945955460244669727
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,8 +612,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1326582529, guid: cf90600c910081d41b659efbf5a7a8e6, type: 3}
   id: C_5
-  title: House
-  description: House\nDesc
+  title: Bahay-kubo, luntiang bukirin at mga alaala
+  description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
 --- !u!1 &2171965901939361966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,8 +1704,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1818212774, guid: 5c2bcee193c8ee940ac5193b24986701, type: 3}
   id: C_4
-  title: Kids4
-  description: Kids4\nDesc
+  title: Tagpuan
+  description: Mike Jacinto\n 2024\nH 36" x W 24"\nOil on Canvas
 --- !u!1 &4455532732016057173
 GameObject:
   m_ObjectHideFlags: 0
