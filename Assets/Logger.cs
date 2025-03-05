@@ -12,21 +12,6 @@ public class Logger : MonoBehaviour
     private const int listenPort = 9001;  // Port for server discovery
     private const int sendPort = 9000;    // Port for sending data
     private Thread listenThread;
-
-    void Start()
-    {
-        udpClient = new UdpClient(listenPort);
-        serverEndPoint = null;
-
-        // Start listening for server broadcast
-        listenThread = new Thread(ListenForServer);
-        listenThread.IsBackground = true;
-        listenThread.Start();
-
-        // Retry server detection every 5 seconds if not found
-        InvokeRepeating(nameof(DetectServer), 0, 5f);
-    }
-
     void DetectServer()
     {
         if (!serverFound)
@@ -69,21 +54,30 @@ public class Logger : MonoBehaviour
             }
         }
     }
-
-    void Update()
-    {
-        if (serverFound && serverEndPoint != null)
-        {
-            SendData();
+    public void Log(string filename, string id, params object[] data) {
+        string logData = $"{filename},{System.DateTime.UtcNow.ToString("o")},{id}";
+        for (int i = 0; i < data.Length; i++) {
+            logData += $",{data[i]}";
         }
-    }
-
-    void SendData()
-    {
-        string logData = $"{System.DateTime.UtcNow.ToString("o")},{transform.position.x},{transform.position.y},{transform.position.z}";
         byte[] sendBytes = Encoding.UTF8.GetBytes(logData);
         udpClient.Send(sendBytes, sendBytes.Length, serverEndPoint);
     }
+    void Start()
+    {
+        udpClient = new UdpClient(listenPort);
+        serverEndPoint = null;
+
+        listenThread = new Thread(ListenForServer);
+        listenThread.IsBackground = true;
+        listenThread.Start();
+
+        InvokeRepeating(nameof(DetectServer), 0, 5f);
+    }
+
+    void Update()
+    {
+    }
+
 
     void OnApplicationQuit()
     {
