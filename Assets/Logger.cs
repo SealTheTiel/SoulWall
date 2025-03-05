@@ -46,6 +46,7 @@ public class Logger : MonoBehaviour
                     serverEndPoint = new IPEndPoint(IPAddress.Parse(ip), sendPort);
                     serverFound = true;
                     Debug.Log($"Server found at {ip}");
+                    Log("START", "START");
                 }
             }
             catch (SocketException ex)
