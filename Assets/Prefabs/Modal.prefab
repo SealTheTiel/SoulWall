@@ -241,12 +241,12 @@ MonoBehaviour:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1.3
+        Max: 1.6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1.3
+        Max: 1.6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
