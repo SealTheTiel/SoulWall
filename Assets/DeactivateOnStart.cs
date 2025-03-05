@@ -15,6 +15,10 @@ public class DeactivateOnStart : MonoBehaviour
 
     void Awake()
     {
-        gameObject.SetActive(false);
+
+    }
+    public void Activate()
+    {
+        gameObject.SetActive(true);
     }
 }
