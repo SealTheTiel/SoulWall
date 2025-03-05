@@ -71,3 +71,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset.meta
+Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset
+Assets/XR/Resources/XRSimulationRuntimeSettings.asset.meta
+Assets/XR/Resources/XRSimulationRuntimeSettings.asset
+Assets/Resources/PerformanceTestRunSettings.json.meta
+Assets/Resources/PerformanceTestRunSettings.json
+Assets/Resources/PerformanceTestRunInfo.json.meta
+Assets/Resources/PerformanceTestRunInfo.json
