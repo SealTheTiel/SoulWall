@@ -27,7 +27,7 @@ public class Modal : MonoBehaviour
     }
     void Start()
     {
-        logger = FindObjectOfType<Logger>();
+        logger = FindAnyObjectByType<Logger>();
         logger.Log("modal_actions", id, "Opened");
         transform.hasChanged = false;
     }
