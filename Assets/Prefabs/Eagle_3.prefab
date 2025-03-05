@@ -1084,8 +1084,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1729464450, guid: 7cdd96a5ab2a0d049b6652825d356e10, type: 3}
   id: C_1
-  title: Kids3
-  description: Kids3\nDesc
+  title: Idi ubbing kami (Noong kami'y mga bata pa")
+  description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
 --- !u!1 &2976207054638146787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,8 +2435,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 2114917089, guid: 8080fa32b339b9540a1662efc7706273, type: 3}
   id: C_2
-  title: Dog
-  description: Dog\nDesc
+  title: Agban-niit ("Mamingwit")
+  description: Mike Jacinto\n 2024\nH 30" x W 24"\nOil on Canvas
 --- !u!1 &6483544177757813945
 GameObject:
   m_ObjectHideFlags: 0

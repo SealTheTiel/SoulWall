@@ -871,8 +871,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 592667965, guid: dee9b95c0472d80449b5367716c2aa24, type: 3}
   id: D_3
-  title: Kid 3
-  description: Kid 3\nDesc
+  title: Lunch break
+  description: Joeff Jamalul\n 2024\nH 29" x W 25"\nOil on Canvas
 --- !u!1 &4678127011638079800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,8 +1309,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1982487327, guid: c4b499c0be9794540b493bd0df7c9f26, type: 3}
   id: D_4
-  title: Boat
-  description: Boat\nDesc
+  title: Fragile 2
+  description: Joeff Jamalul\n 2023\nH 24" x W 24"\nOil on Canvas
 --- !u!1 &5691712311218199679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,7 +1577,7 @@ MonoBehaviour:
   artworkImage: {fileID: -822174074, guid: 31b132744b6f990409971911f25a116a, type: 3}
   id: D_5
   title: Fragile
-  description: Fragile\nLaufey
+  description: Joeff Jamalul\n 2022\nH 24" x W 20"\nOil on Canvas
 --- !u!1 &5697364272402372884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,8 +1843,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1641816555, guid: 778ef5894d74dd14db5cbba08c3aa235, type: 3}
   id: D_2
-  title: Kid 2
-  description: Kid 2\nDesc
+  title: Fragile 3
+  description: Joeff Jamalul\n 2024\nH 36" x W 36"\nOil on Canvas
 --- !u!1 &5758333057334427727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,8 +2110,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 266952441, guid: b372a0602f1160a4fa0481b7e72dac94, type: 3}
   id: D_1
-  title: Kid 1
-  description: Kid 1\nDesc
+  title: Fragile 4
+  description: Joeff Jamalul\n 2024\nH 24" x W 22"\nOil on Canvas
 --- !u!1 &5788829708719483512
 GameObject:
   m_ObjectHideFlags: 0

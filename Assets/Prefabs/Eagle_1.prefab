@@ -794,8 +794,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1165279561, guid: e5114d61b5a7c204eab93c2792702723, type: 3}
   id: A_2
-  title: Man on Carabao
-  description: Man on Carabao\nDesc
+  title: Bukang-Liwayway para kay Abundoy
+  description: Antonio Cuerdo\n 2024\nH 32" x W 32"\nOil on Canvas
 --- !u!1 &2070050510480485514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,8 +1396,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1387776008, guid: ef2171eca7881594c95dba35ca944c3a, type: 3}
   id: A_1
-  title: Woman Tossing Rice
-  description: Woman Tossing Rice\nDesc
+  title: Masayang Kahapon
+  description: Antonio Cuerdo\n 2023\nH 30" x W 20"\nOil on Canvas
 --- !u!1 &4302538877066656480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,8 +1740,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
   id: A_5
-  title: Mango
-  description: Mango\nDesc
+  title: Mango Harvest
+  description: Antonio Cuerdo\n 2022\nH 20" x W 30"\nOil on Canvas
 --- !u!1 &4916799401892033904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,8 +2055,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1831787653, guid: 23c57fc34f7e4eb4a9510193871d488b, type: 3}
   id: A_3
-  title: Farmer
-  description: Farmer\nDesc
+  title: Buhay Magsasaka
+  description: Antonio Cuerdo\n 2024\nH 48" x W 32"\nOil on Canvas
 --- !u!1 &5249925817999918739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,8 +2322,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1357188262, guid: ec7bfdba9fecb5c4f83f38fe6f616385, type: 3}
   id: A_4
-  title: Chicken
-  description: Chicken\nDesc
+  title: Pagkatapos ng Anihan
+  description: Antonio Cuerdo\n 2021\nH 20" x W 18"\nOil on Canvas
 --- !u!1 &5570466288150096604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3112,8 +3112,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 1906904902, guid: fa286d0cfd734e44c9e17e4b80baf4f0, type: 3}
   id: A_6
-  title: Mango
-  description: Mango\nDesc
+  title: Mango Harvest
+  description: Antonio Cuerdo\n 2022\nH 20" x W 30"\nOil on Canvas
 --- !u!1 &8938687626199183759
 GameObject:
   m_ObjectHideFlags: 0

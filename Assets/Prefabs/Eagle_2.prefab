@@ -265,8 +265,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -138060721, guid: 7817d129b2ba4514487c75df44695bdc, type: 3}
   id: B_3
-  title: B3
-  description: desc
+  title: Familia
+  description: Janina Sanico\n 2023\nH 20" x W 16"\nAcrylic on Canvas
 --- !u!1 &684051435429916308
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,8 +722,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1278303585, guid: 83337987105d68f48b1123eaccd3aff0, type: 3}
   id: B_4
-  title: B4
-  description: desc
+  title: Kargang Ani
+  description: Janina Sanico\n 2023\nH 24" x W 18"\nAcrylic on Canvas
 --- !u!1 &2825358791543314026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,8 +1255,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1948230769, guid: 838287fe55a46604898e2112bd3f3a20, type: 3}
   id: B_5
-  title: B5
-  description: desc
+  title: Tres Floras
+  description: Janina Sanico\n 2023\nH 24" x W 18"\nAcrylic on Canvas
 --- !u!1 &4214389323843766999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,8 +1522,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: -1524407181, guid: adb9e42fe0873324eb2ee7889a2140a9, type: 3}
   id: B_2
-  title: B2
-  description: desc
+  title: Pasalubong ni Tatay
+  description: Janina Sanico\n 2022\nH 24" x W 18"\nAcrylic on Canvas
 --- !u!1 &4464867348532051543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2302,8 +2302,8 @@ MonoBehaviour:
   modalPrefab: {fileID: 816457730594905370, guid: ca45fefcefaf4ec419ed0497c3a264ab, type: 3}
   artworkImage: {fileID: 676490354, guid: 5eeae17c84e5c3a419e15afa4521d70e, type: 3}
   id: B_1
-  title: B1
-  description: desc
+  title: "Ang dalangin namin kay Sto. \xD1ino"
+  description: Janina Sanico\n 2023\nH 12" x W 12"\nAcrylic on Canvas
 --- !u!1 &6969898419683793093
 GameObject:
   m_ObjectHideFlags: 0
