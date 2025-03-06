@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1959bb9b8e8cc6341af3280f344aacaf
+guid: 0a1e494cf15ebd641bde83a89189d499
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: museumLayout_0
+      name: museuml_layout_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1582
-        height: 1467
+        y: 4
+        width: 2010
+        height: 1294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33834ad9dfcbeef4b857e9ecfdeaa9bc
-      internalID: -1707442166
+      spriteID: 4ff0fb1a531d641449b249b0e4d51345
+      internalID: 898165435
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cc48351ec36e8634c8fcb30f65577dc8
+    spriteID: a9ad146ba8702a4419c2ac4e2dca3190
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      museumLayout_0: -1707442166
+      museuml_layout_0: 898165435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
