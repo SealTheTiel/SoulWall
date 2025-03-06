@@ -414,7 +414,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5839354330806206608, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
+  - {fileID: 975871726096161094, guid: a9e66bbe76e4bb247b930d5139dd0101, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -456,17 +456,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et tellus
-    lorem. Donec lacus lorem, molestie a nisi vel, ullamcorper consectetur eros.
-    Donec quam eros, sollicitudin quis nunc vitae, vulputate tempor quam. Nulla maximus
-    sapien et dictum pulvinar. Proin leo lacus, ullamcorper non erat vitae, vulputate
-    vehicula orci. Praesent porttitor sollicitudin tellus quis tincidunt. Mauris
-    vel luctus lorem, id rutrum tortor. Nulla iaculis euismod magna, non convallis
-    velit maximus sed. Mauris volutpat leo a lorem consequat efficitur. Morbi auctor
-    erat felis, et varius ipsum elementum vitae.
+  m_text: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
-  m_sharedMaterial: {fileID: -5839354330806206608, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a9e66bbe76e4bb247b930d5139dd0101, type: 2}
+  m_sharedMaterial: {fileID: 975871726096161094, guid: a9e66bbe76e4bb247b930d5139dd0101, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -497,12 +490,12 @@ MonoBehaviour:
   m_fontSizeMin: 28
   m_fontSizeMax: 90
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 150
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -805,7 +798,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5839354330806206608, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
+  - {fileID: -3369575987976550848, guid: 65da39eabd2236e44ac15345bd0495f8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -849,8 +842,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Artwork Title
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
-  m_sharedMaterial: {fileID: -5839354330806206608, guid: eb44739c484b1b54bbc1a0d4d9dd1a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65da39eabd2236e44ac15345bd0495f8, type: 2}
+  m_sharedMaterial: {fileID: -3369575987976550848, guid: 65da39eabd2236e44ac15345bd0495f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -874,14 +867,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.65
+  m_fontSize: 41.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 90
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
