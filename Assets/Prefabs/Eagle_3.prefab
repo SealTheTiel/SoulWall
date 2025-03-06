@@ -614,7 +614,7 @@ MonoBehaviour:
   artworkImage: {fileID: 1326582529, guid: cf90600c910081d41b659efbf5a7a8e6, type: 3}
   id: C_5
   title: Bahay-kubo, luntiang bukirin at mga alaala
-  description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
+  description: \n\nMike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
   positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
 --- !u!1 &2171965901939361966
 GameObject:
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   artworkImage: {fileID: -1729464450, guid: 7cdd96a5ab2a0d049b6652825d356e10, type: 3}
   id: C_1
   title: Idi ubbing kami (Noong kami'y mga bata pa")
-  description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
+  description: \n\nMike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
   positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
 --- !u!1 &2976207054638146787
 GameObject:
