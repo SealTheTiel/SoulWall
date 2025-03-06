@@ -40,6 +40,9 @@ public class HintModal : MonoBehaviour
         if (video) {
             videoPlayer.clip = video;
         }
+        if (videoPlayer) {
+            videoPlayer.isLooping = true;
+        }
         if (numberObject) {
             numberObject.text = number;
         }
