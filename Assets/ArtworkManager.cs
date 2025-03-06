@@ -10,6 +10,7 @@ public class ArtworkManager : MonoBehaviour
     [SerializeField] string id;
     [SerializeField] string title;
     [SerializeField] string description;
+    [SerializeField] Sprite positionSprite;
     // Start is called once before the first execution of transform.position + tranform.right;
     void Start() { }
 
@@ -26,7 +27,7 @@ public class ArtworkManager : MonoBehaviour
             }
         }
         modal = Instantiate(modalPrefab, transform.position, Quaternion.identity);
-        modal.GetComponent<Modal>().SetData(artworkImage, id, title, description);
+        modal.GetComponent<Modal>().SetData(artworkImage, id, title, description, positionSprite);
         
         modal.SetActive(true);
         modal.transform.localScale = Vector3.one * 0.25f;

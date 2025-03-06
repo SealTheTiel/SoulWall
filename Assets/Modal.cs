@@ -12,6 +12,8 @@ public class Modal : MonoBehaviour
     private string description;
     [SerializeField] TextMeshPro descriptionObject;
     private string id;
+    [SerializeField] SpriteRenderer positionSpriteObject;
+    private Sprite positionSprite;
 
     private Logger logger;
     void Awake() {
@@ -24,6 +26,11 @@ public class Modal : MonoBehaviour
         if (descriptionObject) {
             descriptionObject.text = description;
         }
+        if (positionSpriteObject)
+        {
+            positionSpriteObject.sprite = positionSprite;
+        }
+
     }
     void Start()
     {
@@ -48,11 +55,12 @@ public class Modal : MonoBehaviour
         logger.Log("modal_actions", id, "Closed");
     }
 
-    public void SetData(Sprite artworkImage, string id, string title, string description) {
+    public void SetData(Sprite artworkImage, string id, string title, string description, Sprite positionSprite) {
         this.artworkImage = artworkImage;
         this.title = title;
         this.description = description;
         this.id = id;
+        this.positionSprite = positionSprite;
         if (spriteRenderer) {
             spriteRenderer.sprite = artworkImage;
         }
@@ -61,6 +69,10 @@ public class Modal : MonoBehaviour
         }
         if (descriptionObject) {
             descriptionObject.text = description;
+        }
+        if (positionSpriteObject)
+        {
+            positionSpriteObject.sprite = positionSprite;
         }
     }
 
