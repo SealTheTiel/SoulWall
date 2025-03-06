@@ -1109,6 +1109,7 @@ MonoBehaviour:
   id: D_3
   title: Lunch break
   description: Joeff Jamalul\n 2024\nH 29" x W 25"\nOil on Canvas
+  positionSprite: {fileID: -1224063058, guid: da6693f70811dcf47b47f70117fa6180, type: 3}
 --- !u!1 &4678127011638079800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1587,7 @@ MonoBehaviour:
   id: D_4
   title: Fragile 2
   description: Joeff Jamalul\n 2023\nH 24" x W 24"\nOil on Canvas
+  positionSprite: {fileID: -1224063058, guid: da6693f70811dcf47b47f70117fa6180, type: 3}
 --- !u!1 &5691712311218199679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1855,7 @@ MonoBehaviour:
   id: D_5
   title: Fragile
   description: Joeff Jamalul\n 2022\nH 24" x W 20"\nOil on Canvas
+  positionSprite: {fileID: -1224063058, guid: da6693f70811dcf47b47f70117fa6180, type: 3}
 --- !u!1 &5697364272402372884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,6 +2123,7 @@ MonoBehaviour:
   id: D_2
   title: Fragile 3
   description: Joeff Jamalul\n 2024\nH 36" x W 36"\nOil on Canvas
+  positionSprite: {fileID: -1224063058, guid: da6693f70811dcf47b47f70117fa6180, type: 3}
 --- !u!1 &5737941493991749038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,6 +2422,7 @@ MonoBehaviour:
   id: D_1
   title: Fragile 4
   description: Joeff Jamalul\n 2024\nH 24" x W 22"\nOil on Canvas
+  positionSprite: {fileID: -1224063058, guid: da6693f70811dcf47b47f70117fa6180, type: 3}
 --- !u!1 &5788829708719483512
 GameObject:
   m_ObjectHideFlags: 0
