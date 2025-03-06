@@ -840,7 +840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Artwork Title
+  m_text: Bahay Kubo, \n  Luntiang Bukirin at \n mga alala
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e66bbe76e4bb247b930d5139dd0101, type: 2}
   m_sharedMaterial: {fileID: 975871726096161094, guid: a9e66bbe76e4bb247b930d5139dd0101, type: 2}
@@ -867,11 +867,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
+  m_fontSize: 35
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 45
+  m_fontSizeMin: 35
   m_fontSizeMax: 55
   m_fontStyle: 1
   m_HorizontalAlignment: 2
