@@ -252,14 +252,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videos:
-  - {fileID: 32900000, guid: 3e5feb46c98c7a24bbd6a350e292cda3, type: 3}
-  - {fileID: 32900000, guid: eecb34362142fbf4786605ccaaddb600, type: 3}
-  - {fileID: 32900000, guid: 2fb085986eedbc04b92438a6d054b119, type: 3}
-  - {fileID: 32900000, guid: c0c90ce8a1d44f24e8f76057f8d0e805, type: 3}
-  - {fileID: 32900000, guid: 1959b9ad28f9dd74eae32d9e11c2fe96, type: 3}
-  - {fileID: 32900000, guid: 6d390e275977d634e8ecfb5e94667111, type: 3}
-  - {fileID: 32900000, guid: f6b6e988ba31294468d854cce0f60dbf, type: 3}
-  - {fileID: 32900000, guid: b953e30a5d4afbe4fa18d52f21e3a84e, type: 3}
+  - {fileID: 32900000, guid: dfa9912d82283814996eb5222104c7bd, type: 3}
+  - {fileID: 32900000, guid: 0191aeed5cd31e64f8d325dd0431e02a, type: 3}
+  - {fileID: 32900000, guid: 8532e2d5c48d7b94188bd284a3eee66c, type: 3}
+  - {fileID: 32900000, guid: 9c7c88a1ff37cc14ba92e5c76be7fd03, type: 3}
+  - {fileID: 32900000, guid: 74ec54baa6e3ed0448acc3ac797882b0, type: 3}
+  - {fileID: 32900000, guid: 06ec0f0862df53c4590728e6cb58b8a0, type: 3}
+  - {fileID: 32900000, guid: 203cd1cadf2a45742872fdde3a8688cf, type: 3}
+  - {fileID: 32900000, guid: 60e680f8d0e917740a36bb915368a664, type: 3}
   numberTexts:
   - 1.
   - 2.
@@ -4253,7 +4253,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
+  m_PlaybackSpeed: 0.75
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -4265,7 +4265,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
