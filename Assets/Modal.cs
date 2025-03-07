@@ -16,6 +16,8 @@ public class Modal : MonoBehaviour
     private Sprite positionSprite;
 
     private Logger logger;
+    private int frameCounter = 0;
+    private int nFrames = 10; 
     void Awake() {
         if (artworkImage) {
             spriteRenderer.sprite = artworkImage;
@@ -43,12 +45,18 @@ public class Modal : MonoBehaviour
     void Update()
     {
         // check if transform is changed
-        if (transform.hasChanged)
-        {
-            logger.Log("modal_transform", id, transform.position.x, transform.position.y, transform.position.z, transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w, transform.localScale.x, transform.localScale.y, transform.localScale.z);
-            transform.hasChanged = false;
+        if (transform.hasChanged) {
+            frameCounter %= nFrames;
+            if (frameCounter == 0) {
+                LogPosition();
+            }
+            frameCounter++;
         }
-        
+        transform.hasChanged = false;
+    }
+
+    void LogPosition() {
+        logger.Log("modal_transform", id, transform.position.x, transform.position.y, transform.position.z, transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w, transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
     void OnDestroy() {
