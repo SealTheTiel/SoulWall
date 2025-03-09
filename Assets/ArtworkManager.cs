@@ -28,6 +28,7 @@ public class ArtworkManager : MonoBehaviour
         }
         modal = Instantiate(modalPrefab, transform.position, Quaternion.identity);
         modal.GetComponent<Modal>().SetData(artworkImage, id, title, description, positionSprite);
+        modal.GetComponent<Modal>().SetParentTransform(transform);
         
         modal.SetActive(true);
         modal.transform.localScale = Vector3.one * 0.25f;

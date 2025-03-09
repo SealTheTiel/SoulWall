@@ -18,6 +18,7 @@ public class Modal : MonoBehaviour
     private Logger logger;
     private int frameCounter = 0;
     private int nFrames = 10; 
+    private Transform parentTransform;
     void Awake() {
         if (artworkImage) {
             spriteRenderer.sprite = artworkImage;
@@ -56,7 +57,11 @@ public class Modal : MonoBehaviour
     }
 
     void LogPosition() {
-        logger.Log("modal_transform", id, transform.position.x, transform.position.y, transform.position.z, transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w, transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        Vector3 relativePosition = transform.position - parentTransform.position;
+        logger.Log("modal_transform", id,   transform.position.x, transform.position.y, transform.position.z,
+                                            transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w,
+                                            transform.localScale.x, transform.localScale.y, transform.localScale.z,
+                                            relativePosition.x, relativePosition.y, relativePosition.z);
     }
 
     void OnDestroy() {
@@ -83,7 +88,9 @@ public class Modal : MonoBehaviour
             positionSpriteObject.sprite = positionSprite;
         }
     }
-
+    public void SetParentTransform(Transform parentTransform) {
+        this.parentTransform = parentTransform;
+    }
     public string GetId() {
         return id;
     }
