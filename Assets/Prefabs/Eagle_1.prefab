@@ -796,7 +796,7 @@ MonoBehaviour:
   id: A_2
   title: Bukang-Liwayway para kay Abundoy
   description: Antonio Cuerdo\n 2024\nH 32" x W 32"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: -2065650109, guid: 98d68e01eaaba2d4fbcb084fa5745daa, type: 3}
 --- !u!1 &2070050510480485514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,7 +1399,7 @@ MonoBehaviour:
   id: A_1
   title: Masayang Kahapon
   description: Antonio Cuerdo\n 2023\nH 30" x W 20"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: -2081337794, guid: 686b060e840466f4d934056c4fe129f7, type: 3}
 --- !u!1 &4302538877066656480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,7 +1744,7 @@ MonoBehaviour:
   id: A_5
   title: Mango Harvest
   description: Antonio Cuerdo\n 2022\nH 20" x W 30"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: 1972639986, guid: 83167d9d8f4016c4796ecd5993dc223c, type: 3}
 --- !u!1 &4916799401892033904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +2060,7 @@ MonoBehaviour:
   id: A_3
   title: Buhay Magsasaka
   description: Antonio Cuerdo\n 2024\nH 48" x W 32"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: -399223942, guid: 0f9532af7c0d78f44b68dcf3a77841b2, type: 3}
 --- !u!1 &5249925817999918739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   id: A_4
   title: Pagkatapos ng Anihan
   description: Antonio Cuerdo\n 2021\nH 20" x W 18"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: -1480155032, guid: 1eca4ad6d56e69c48a9bf32a54c8a86e, type: 3}
 --- !u!1 &5570466288150096604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,7 +3119,7 @@ MonoBehaviour:
   id: A_6
   title: Mango Harvest
   description: Antonio Cuerdo\n 2022\nH 20" x W 30"\nOil on Canvas
-  positionSprite: {fileID: -347979076, guid: 851f6d77a434f4444b3af07bd0910d18, type: 3}
+  positionSprite: {fileID: 1972639986, guid: 83167d9d8f4016c4796ecd5993dc223c, type: 3}
 --- !u!1 &8938687626199183759
 GameObject:
   m_ObjectHideFlags: 0

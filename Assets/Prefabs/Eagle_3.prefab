@@ -347,7 +347,7 @@ MonoBehaviour:
   id: C_3
   title: Kayabang
   description: Mike Jacinto\n 2023\nH 18" x W 24"\nOil on Canvas
-  positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
+  positionSprite: {fileID: -1765943033, guid: 65575b4b9eeaf094eb9c62e6dac222b5, type: 3}
 --- !u!1 &1945955460244669727
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +615,7 @@ MonoBehaviour:
   id: C_5
   title: Bahay-kubo, luntiang bukirin at mga alaala
   description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
-  positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
+  positionSprite: {fileID: 1096685872, guid: 5eabfc6a5de2dcd409ed8137fe4578cd, type: 3}
 --- !u!1 &2171965901939361966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   id: C_1
   title: Idi ubbing kami (Noong kami'y mga bata pa")
   description: Mike Jacinto\n 2023\nH 30" x W 24"\nOil on Canvas
-  positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
+  positionSprite: {fileID: -2058248624, guid: c11dae3ebe5785e498db47c88081df6e, type: 3}
 --- !u!1 &2976207054638146787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   id: C_4
   title: Tagpuan
   description: Mike Jacinto\n 2024\nH 36" x W 24"\nOil on Canvas
-  positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
+  positionSprite: {fileID: 567215947, guid: dd366320b10ec3e4b96a4df2c2b3471e, type: 3}
 --- !u!1 &4455532732016057173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   id: C_2
   title: Agban-niit ("Mamingwit")
   description: Mike Jacinto\n 2024\nH 30" x W 24"\nOil on Canvas
-  positionSprite: {fileID: 676685690, guid: ffd1696ae78659d40919bdc1b325dcee, type: 3}
+  positionSprite: {fileID: -931563010, guid: 260af6db9d0b5764ea8f464a0301dfda, type: 3}
 --- !u!1 &6483544177757813945
 GameObject:
   m_ObjectHideFlags: 0

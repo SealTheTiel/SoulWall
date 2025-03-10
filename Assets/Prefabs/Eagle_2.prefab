@@ -267,7 +267,7 @@ MonoBehaviour:
   id: B_3
   title: Familia
   description: Janina Sanico\n 2023\nH 20" x W 16"\nAcrylic on Canvas
-  positionSprite: {fileID: -1869811895, guid: c9d5311604a2ade4baa4cbb96fba886b, type: 3}
+  positionSprite: {fileID: 329210263, guid: ef3f2c43687dd294d8a021cbba8b00b9, type: 3}
 --- !u!1 &684051435429916308
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
   id: B_4
   title: Kargang Ani
   description: Janina Sanico\n 2023\nH 24" x W 18"\nAcrylic on Canvas
-  positionSprite: {fileID: -1869811895, guid: c9d5311604a2ade4baa4cbb96fba886b, type: 3}
+  positionSprite: {fileID: -1833993128, guid: 19eefdafeef8f4a468655019936c9320, type: 3}
 --- !u!1 &2825358791543314026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   id: B_5
   title: Tres Floras
   description: Janina Sanico\n 2023\nH 24" x W 18"\nAcrylic on Canvas
-  positionSprite: {fileID: -1869811895, guid: c9d5311604a2ade4baa4cbb96fba886b, type: 3}
+  positionSprite: {fileID: 825261297, guid: 86aea18c0011d524aa8d748b67576bc4, type: 3}
 --- !u!1 &4214389323843766999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   id: B_2
   title: Pasalubong ni Tatay
   description: Janina Sanico\n 2022\nH 24" x W 18"\nAcrylic on Canvas
-  positionSprite: {fileID: -1869811895, guid: c9d5311604a2ade4baa4cbb96fba886b, type: 3}
+  positionSprite: {fileID: -1789017182, guid: f1073255650b7d6449798c6fe9873ca2, type: 3}
 --- !u!1 &4464867348532051543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2308,7 +2308,7 @@ MonoBehaviour:
   id: B_1
   title: "Ang dalangin namin kay Sto. \xD1ino"
   description: Janina Sanico\n 2023\nH 12" x W 12"\nAcrylic on Canvas
-  positionSprite: {fileID: -1869811895, guid: c9d5311604a2ade4baa4cbb96fba886b, type: 3}
+  positionSprite: {fileID: -2117013082, guid: 96a0ce44138e705429e5936f9017d0d6, type: 3}
 --- !u!1 &6969898419683793093
 GameObject:
   m_ObjectHideFlags: 0

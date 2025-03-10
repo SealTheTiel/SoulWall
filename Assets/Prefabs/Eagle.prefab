@@ -7546,7 +7546,7 @@ Transform:
   m_GameObject: {fileID: 5239714390194894372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.677, y: -0.5, z: 0.02}
+  m_LocalPosition: {x: -0.756, y: -0.517, z: 0.02}
   m_LocalScale: {x: 0.065, y: 0.065, z: 0.065}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7596,7 +7596,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 898165435, guid: 0a1e494cf15ebd641bde83a89189d499, type: 3}
+  m_Sprite: {fileID: -2004137135, guid: bb975bc26c3605949be207bab5297648, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14800,6 +14800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eagle_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2048708693502013863, guid: 1ffe3c52bb115e4478105c5f6f16ca45, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7618531386436751856, guid: 1ffe3c52bb115e4478105c5f6f16ca45, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.089
@@ -14913,6 +14917,10 @@ PrefabInstance:
     - target: {fileID: 4455532732016057173, guid: 0b627263a456d274ea29144c9bb49f28, type: 3}
       propertyPath: m_Name
       value: Eagle_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455532732016057173, guid: 0b627263a456d274ea29144c9bb49f28, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4792889175843534565, guid: 0b627263a456d274ea29144c9bb49f28, type: 3}
       propertyPath: m_LocalRotation.z
@@ -15076,6 +15084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eagle_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3517307665329645220, guid: 4b51c6bdb7894104285e4a7c4cd0d76d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4983281880581109106, guid: 4b51c6bdb7894104285e4a7c4cd0d76d, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00000047683704
@@ -15229,6 +15241,10 @@ PrefabInstance:
     - target: {fileID: 4678127011638079800, guid: 330fa617be421ae41a5fe36b74aaa65a, type: 3}
       propertyPath: m_Name
       value: Eagle_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678127011638079800, guid: 330fa617be421ae41a5fe36b74aaa65a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6248925460340750421, guid: 330fa617be421ae41a5fe36b74aaa65a, type: 3}
       propertyPath: m_LocalRotation.w
