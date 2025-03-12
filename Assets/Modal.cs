@@ -58,10 +58,14 @@ public class Modal : MonoBehaviour
 
     void LogPosition() {
         Vector3 relativePosition = transform.position - parentTransform.position;
+        Vector3 cameraPosition = Camera.main.transform.position;
+        Vector3 cameraLook = Camera.main.transform.forward;
         logger.Log("modal_transform", id,   transform.position.x, transform.position.y, transform.position.z,
                                             transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w,
                                             transform.localScale.x, transform.localScale.y, transform.localScale.z,
-                                            relativePosition.x, relativePosition.y, relativePosition.z);
+                                            relativePosition.x, relativePosition.y, relativePosition.z,
+                                            cameraPosition.x, cameraPosition.y, cameraPosition.z,
+                                            cameraLook.x, cameraLook.y, cameraLook.z);
     }
 
     void OnDestroy() {
