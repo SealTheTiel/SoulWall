@@ -41,7 +41,7 @@ def setupFiles():
     Path(data_dir).mkdir(parents=True, exist_ok=True)
     file = open(f"{data_dir}/modal_transform.csv", mode='w', newline='')
     writer = csv.writer(file);
-    writer.writerow(["Timestamp", "Modal ID", "Position X", "Position Y", "Position Z", "Rotation X", "Rotation Y", "Rotation Z", "Scale X", "Scale Y", "Scale Z", "Relative X", "Relative Y", "Relative Z"])
+    writer.writerow(["Timestamp", "Modal ID", "Position X", "Position Y", "Position Z", "Rotation X", "Rotation Y", "Rotation Z", "Rotation W", "Scale X", "Scale Y", "Scale Z", "Relative X", "Relative Y", "Relative Z", "Camera Position X", "Camera Position Y", "Camera Position Z", "Camera Look X", "Camera Look Y", "Camera Look Z"])
     file.close()
 
     file = open(f"{data_dir}/modal_actions.csv", mode='w', newline='')
