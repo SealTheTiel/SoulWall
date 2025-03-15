@@ -278,8 +278,8 @@ MonoBehaviour:
   - Pinch to zoom in and out on a specific area of the eagle or modals.
   - "Click the reset icon to restore the eagle\u2019s original overlay and close
     all open modals."
-  - Click the question mark icon to revisit this tutorial.
   - Click the museum icon to switch to the actual museum layout
+  - Click the question mark icon to revisit this tutorial.
   Title: {fileID: 4003685403146396857}
   Description: {fileID: 2608388982582527420}
   modal: {fileID: 247859935985070822}
