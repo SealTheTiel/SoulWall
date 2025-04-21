@@ -21,6 +21,7 @@ public class Tutorial : MonoBehaviour
 
     [SerializeField] GameObject nextButton;
     [SerializeField] GameObject previousButton;
+    [SerializeField] GameObject closeButton;
     private int currentIndex = 0;
 
     void Awake()
@@ -40,6 +41,9 @@ public class Tutorial : MonoBehaviour
         if (currentIndex >= videos.Count - 1 ) {
             currentIndex = videos.Count - 1;
             nextButton.SetActive(false);
+            if (closeButton.activeSelf == false) {
+                closeButton.SetActive(true);
+            }
         }
         string id = "tutorial" + currentIndex;
         if (currentIndex < videos.Count)
@@ -65,5 +69,14 @@ public class Tutorial : MonoBehaviour
             modal.SetData(videos[currentIndex], id, numberTexts[currentIndex], descriptions[currentIndex]);
             nextButton.SetActive(true);
         }
+    }
+
+    public void Reset()
+    {
+        currentIndex = 0;
+        string id = "tutorial" + currentIndex;
+        modal.SetData(videos[currentIndex], id, numberTexts[currentIndex], descriptions[currentIndex]);
+        previousButton.SetActive(false);
+        nextButton.SetActive(true);   
     }
 }
