@@ -56,7 +56,7 @@ public class Logger : MonoBehaviour
         }
     }
     public void Log(string filename, string id, params object[] data) {
-        string logData = $"{filename},{System.DateTime.UtcNow.ToString("o")},{id}";
+        string logData = $"{filename},{System.DateTime.UtcNow.AddHours(8).ToString("o")},{id}";
         for (int i = 0; i < data.Length; i++) {
             logData += $",{data[i]}";
         }

@@ -34070,7 +34070,9 @@ GameObject:
   - component: {fileID: 1674445079}
   - component: {fileID: 1674445078}
   - component: {fileID: 1674445077}
+  - component: {fileID: 1674445084}
   - component: {fileID: 1674445082}
+  - component: {fileID: 1674445083}
   m_Layer: 0
   m_Name: '[BuildingBlock] Camera Rig'
   m_TagString: Untagged
@@ -34233,13 +34235,43 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674445076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 931955e04424ed949ad7618c98898ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialEaglePrefab: {fileID: 9185667735882441570, guid: 28ce957f9ea1eae468536a253dde31e8, type: 3}
   eaglePrefab: {fileID: 9185667735882441570, guid: 95fa7f66fe2acc94b96a488e69676bd7, type: 3}
+  prefabScale: 0.2
+--- !u!114 &1674445083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674445076}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a24c8b55ceeb2b4985add608623de67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapPrefab: {fileID: 816457730594905370, guid: b680a787eca89e745a117e86f20a5c74, type: 3}
+  prefabScale: 0.75
+--- !u!114 &1674445084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674445076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f364677dbbab248bc563ef2f122511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuPrefab: {fileID: 9185667735882441570, guid: 7761b5901b4ee1a4ba1b71563dbd61b7, type: 3}
+  initialEagleManager: {fileID: 1674445082}
+  mapManager: {fileID: 1674445083}
   prefabScale: 0.2
 --- !u!1 &1675351863
 GameObject:

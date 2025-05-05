@@ -21,10 +21,16 @@ public class InitialEagleManager : MonoBehaviour
         spawnedPrefab.SetActive(false);
     }
 
-    void Start() {}
+    void Start() {
+       
+    }
 
-    IEnumerator AddAnchor(GameObject go) {
-        var anchor = go.AddComponent<OVRSpatialAnchor>();
+    void OnEnable() {
+        
+    }
+
+    IEnumerator AddAnchor() {
+        var anchor = spatialAnchor.AddComponent<OVRSpatialAnchor>();
         yield return new WaitUntil(() => anchor.Created);
     }
     
@@ -32,14 +38,15 @@ public class InitialEagleManager : MonoBehaviour
     void Update() {
         if (!OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) && !OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger)) { return; }
         if (isPlaced) { Destroy(spatialAnchor); }
-
+        Debug.Log("MapManager: PLACE NEW ANCHOR");
         spatialAnchor = new GameObject("EagleAnchor");
         spatialAnchor.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f;
-        StartCoroutine(AddAnchor(spatialAnchor));
+        StartCoroutine(AddAnchor());
 
         spawnedPrefab.SetActive(true);
         spawnedPrefab.transform.position = spatialAnchor.transform.position;
         spawnedPrefab.transform.LookAt(Camera.main.transform.position);
+        spawnedPrefab.transform.rotation = Quaternion.Euler(0, spawnedPrefab.transform.rotation.eulerAngles.y, 0);
         spawnedPrefab.transform.localScale = new Vector3(prefabScale, prefabScale, prefabScale);
 
         isPlaced = true;
