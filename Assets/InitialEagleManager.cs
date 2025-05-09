@@ -16,6 +16,8 @@ public class InitialEagleManager : MonoBehaviour
 
     private bool isPlaced = false;
 
+    private bool firstStart = true;
+
     void Awake() {
         spawnedPrefab = Instantiate(initialEaglePrefab, Vector3.zero, Quaternion.identity);
         spawnedPrefab.SetActive(false);
@@ -64,6 +66,21 @@ public class InitialEagleManager : MonoBehaviour
         spawnedPrefab.transform.position = originalTransform.position;
         spawnedPrefab.transform.rotation = originalTransform.rotation;
         spawnedPrefab.transform.localScale = new Vector3(prefabScale, prefabScale, prefabScale);
+        
+        if(!firstStart) {
+            resetEagle();
+        } else {
+            firstStart = false;
+        }
+    }
+
+    private void resetEagle() {
+        GameObject tutorialModal = spawnedPrefab.transform.Find("TutorialModal").gameObject;
+        GameObject closeTutorialButton = tutorialModal.transform.Find("Visuals").gameObject.transform.Find("Close_PokeInteraction").gameObject;
+        closeTutorialButton.SetActive(true);
+        tutorialModal.SetActive(false);
+        GameObject eagle = spawnedPrefab.transform.Find("EagleObject").gameObject;
+        eagle.SetActive(true);
     }
 
     public void reset() {

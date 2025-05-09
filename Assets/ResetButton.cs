@@ -21,6 +21,7 @@ public class ResetButton : MonoBehaviour
 
     public void Reset() {
         initialEagleManager.GetComponent<InitialEagleManager>().reset();
+        
         Modal[] modals = GameObject.FindObjectsByType<Modal>(FindObjectsSortMode.None);
         foreach (Modal modal in modals) {
             Destroy(modal.gameObject);
